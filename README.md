@@ -1,8 +1,14 @@
 **Forked repo**
-!!! Fork from original https://github.com/olofd/react-native-photos-framework repo with quick fix that caused failed builds in RN 0.59+ (removed Android script)
+Adding tvOS support (tvOS deployment target and iOS checks for features only available on that platform) - forked from:
+
+https://github.com/vforvasile/react-native-photos-framework
+
+which adds quick fix that caused failed builds in RN 0.59+ (removed Android script), and is in turn a fork from the original:
+
+https://github.com/olofd/react-native-photos-framework
 
 **Updated instructions:**
-`npm i @vforvasile/react-native-photos-framework --save && react-native link @vforvasile/react-native-photos-framework`
+`npm i @bthj/react-native-photos-framework --save && react-native link @bthj/react-native-photos-framework`
 
 **Original content below**
 
