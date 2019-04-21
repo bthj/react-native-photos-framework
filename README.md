@@ -1,4 +1,5 @@
-**Forked repo**
+**Forked repo:**
+
 Adding tvOS support (tvOS deployment target and iOS checks for features only available on that platform) - forked from:
 
 https://github.com/vforvasile/react-native-photos-framework
@@ -8,7 +9,14 @@ which adds quick fix that caused failed builds in RN 0.59+ (removed Android scri
 https://github.com/olofd/react-native-photos-framework
 
 **Updated instructions:**
+
 `npm i @bthj/react-native-photos-framework --save && react-native link @bthj/react-native-photos-framework`
+
+The following commands [might be required](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294) after installation:
+```
+$ cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd ../../../
+$ cd node_modules/react-native/third-party/glog-0.3.5/ && ../../scripts/ios-configure-glog.sh && cd ../../../../
+```
 
 **Original content below**
 
