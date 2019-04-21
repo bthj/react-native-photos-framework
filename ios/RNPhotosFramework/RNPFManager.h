@@ -1,4 +1,6 @@
+#if TARGET_OS_IOS
 #import <AssetsLibrary/AssetsLibrary.h>
+#endif
 #import <React/RCTBridgeModule.h>
 #import <React/RCTConvert.h>
 #import <React/RCTBridge.h>

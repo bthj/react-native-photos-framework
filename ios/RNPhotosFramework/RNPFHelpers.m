@@ -33,8 +33,10 @@
                        @"latitude": @(loc.coordinate.latitude),
                        @"longitude": @(loc.coordinate.longitude),
                        @"altitude": @(loc.altitude),
+#if TARGET_OS_IOS
                        @"heading": @(loc.course),
                        @"speed": @(loc.speed),
+#endif
                        } : @{};
 }
 
